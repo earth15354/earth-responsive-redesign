@@ -317,7 +317,7 @@ h6 {
         height: 150px;
     }
 
-    .navbar:target {
+    .navbar:active {
         background-color: #FFFDEF;
         /* padding-top: 20px; */
         width: 50px;
@@ -326,7 +326,7 @@ h6 {
         height: 150px;
     }
 
-    :target .untarget {
+    :active .inactive {
         width: 27px;
         height: 27px;
         border-radius: 50%;
