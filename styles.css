@@ -326,6 +326,20 @@ h6 {
         height: 150px;
     }
 
+    :target .untarget {
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        background-color: #6C594B;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        opacity: 0.6;
+        transition-duration: 0.3s;
+        display: block;
+        overflow: hidden;
+    }
+
     #dropdown {
         display: block;
         position: fixed;
